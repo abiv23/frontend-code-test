@@ -4,34 +4,61 @@
 ===========================
 */
 
-.home-nav {
+.home-logo {
+  padding: 1rem 0 1rem 1rem;
+}
+
+.nav-items {
   display: flex;
+  align-items: flex-end;
 }
 
-.logo {
-  padding: 3rem 0 1rem 1rem;
-  height: 9vh;
-  display: flex;
-}
-
-.nav-icon {
-  width: 3rem;
-  height: 3rem;
-}
-
-.sub-nav {
-  height: 7vh;
-  background-color: darkgrey;
-}
 /*
 ===========================
       Home Page
 ===========================
 */
 
-.profile-img {
-  height: 50vh;
+.container {
+  width: 90%;
 }
+
+.sub-nav {
+  height: 10vh;
+  background-color: darkgrey;
+}
+
+.row .col.l3.sub-nav-input {
+  background-color: white;
+  height: 2.5rem;
+  margin-top: 1rem;
+}
+
+.row .col.sub-nav-submit {
+  background-color: #009999;
+  color: white;
+  padding: .5rem;
+  margin-left: .25rem;
+  margin-top: 1rem;
+}
+
+div.sub-nav-items {
+  padding-top: 1rem;
+  display: flex;
+  align-content: flex-end;
+
+}
+
+a.sub-nav-item.white-text.col.m2.l2 {
+  text-decoration: underline;
+}
+
+.profile-head {
+  height: 50vh;
+  background-color: lightgrey;
+}
+
+
 
 /*
 ===========================
