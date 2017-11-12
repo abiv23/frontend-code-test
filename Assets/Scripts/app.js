@@ -38,6 +38,13 @@ function toggleClick(event){
   $('#clickEventLink').toggleClass('not-clicked');
 }
 
+function displayData(data){
+  const returnData = JSON.parse(data);
+  Object.keys(returnData).forEach(function(key) {
+    $('#jsonResponse').append('<div>' + key + ': ' + returnData[key] + '</div>');
+});
+}
+
 function ajaxCall(){
-  // $.get(ajax_return.html)
+  $.get('http://127.0.0.1:8080/ajax_return.html', displayData)
 }
