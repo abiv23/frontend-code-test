@@ -1,6 +1,12 @@
-//1200 large desktop
-//768 tablet
-//480 iphone
+//1200px large desktop
+//768px tablet
+//480px iphone
+
+/* variables */
+$teal-dark: rgb(35, 115, 120);
+$grey: rgb(170, 170, 170);
+$grey-light: rgb(221, 221, 221);
+$teal-light:  rgb(34, 153, 165);
 
 
 /* responsive top nav start*/
@@ -125,7 +131,7 @@ header {
     bottom: 0;
     height: 6rem;
     width: 100%;
-    background-color: rgb(170, 170, 170);
+    background-color: $grey;
     .flex-container{
       display: flex;
     .input-group{
@@ -137,7 +143,7 @@ header {
       }
       .search-icon-button {
         border: none;
-        background-color: rgb(35, 115, 120);
+        background-color: $teal-dark;
         width: 100%;
         max-height: 3.5rem;
         .search-icon {
@@ -165,7 +171,7 @@ header {
             .search-button {
               color: white;
               border: none;
-              background-color: rgb(35, 115, 120);
+              background-color: $teal-dark;
               font-size: 1.75rem;
             }
             @media screen and (min-width: 1200px){
@@ -231,7 +237,7 @@ header {
 
 /* agent info start  */
 .agent-info-container{
-  background-color: rgb(221, 221, 221);
+  background-color: $grey-light;
   .agent-detail-container{
     display: flex;
     flex-direction: column;
@@ -303,7 +309,7 @@ header {
       }
       .contact-btn{
         width: 100%;
-        background-color: rgb(35, 115, 120);
+        background-color: $teal-dark;
         color: white;
         height: 40px;
         font-size: 2rem;
@@ -493,7 +499,7 @@ header {
  /* footer start */
  footer {
    width:100%;
-   background-color: rgb(34, 153, 165);
+   background-color: $teal-light;
    color: white;
    height: 40vh;
    display: flex;
